@@ -1,4 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KitchenSync</string>
+
+    <!--"LayoutMain-->
+    <string name="main_defaultDateText">No Text Set!</string>
+    <string name="currentMealDateDisplay">currentMealDateDisplay</string>
+    <string name="filterDisplayText">Filtering:  </string>
+
+    <!--"ReviewWrite-->
+    <string name="buttonSubmitReview">SUBMIT REVIEW</string>
+    <string name="editTextName">Name...</string>
+    <string name="editWriteAReview">Write a review...</string>
+
+    <!--"ReviewBody-->
+    <string name="reviewAuthor">Author</string>
+    <string name="reviewDate">Date</string>
+    <string name="reviewRating">Rating</string>
+
+    <!--"HelpMenu-->
+    <string name="HelpActivity">Help Activity</string>
+    <string name="helpBarTitle">Help</string>
+    <string name="helpAboutTitle">About</string>
+    <string name="helpAboutContent">View Café Mac’s published menus for breakfast, lunch, and dinner, for a whole week. Use reviews and ratings for menu items.</string>
+    <string name="helpChooseDayTitle">Choose Day</string>
+    <string name="helpChooseDayContent">Change the day by selecting the options menu, or the bar above the menu, then select ‘Choose Day’.</string>
+    <string name="helpFilterForTitle">Filter For</string>
+    <string name="helpFilterForContent">Change filters for Vegan, Vegetarian, Pescetarian, and Gluten Free by selecting the options menu, or the bar above the menu, and then select ‘Filter For’.</string>
+    <string name="helpRefreshTitle">Refresh</string>
+    <string name="helpRefreshContent">Refreshes the menu by selecting the options menu, or the bar above the menu, and then select ‘Refresh’.</string>
+    <string name="helpReviewsTitle">Reviews</string>
+    <string name="helpReviewsContent">See reviews by touching a menu item. Post a rating and/or review at the bottom of food item’s review page.</string>
+    <string name="helpHardwareTitle">Hardware</string>
+    <string name="helpHardwareContent">KitchenSync is designed to run on any Android device.</string>
+
+
+
+    <!--"popupMenu-->
+    <string name="Sunday">Sunday </string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+
+    <string name="FilterFor">Filter For</string>
+    <string name="vegan">Vegan</string>
+    <string name="pescetarian">Pescetarian</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="GlutenFree">Gluten Free</string>
+    <string name="None">Omnivore</string>
+
+
+
+
+    <string name="cafe_url">http://macalester.cafebonappetit.com/hungry/cafe-mac/</string>
+    <string name="server_url">http://comp225-kitchen-sync.herokuapp.com/v1/menu</string>
+    <string name="server_post">http://comp225-kitchen-sync.herokuapp.com/v1/addReview</string>
+    <string name="filter_text">Filter</string>
+    <string name="display_day">Day</string>
+    <string name="gluten_free">Gluten Free</string>
 </resources>

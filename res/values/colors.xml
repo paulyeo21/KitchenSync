@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_Color">#ff3e3f37</color>
+    <color name="darkBackground_Color">#ff3e3f37</color>
+    <color name="primary_Color">#eaf263</color>
+    <color name="secondary_Color">#be2f37</color>
+    <color name="third_Color">#ff31948d</color>
+    <color name="trim_Color">#ffeee1d0</color>
+    <color name="background_Color">#fffff1e0</color>
+    <color name="black">#ff000000</color>
+</resources>
+
+

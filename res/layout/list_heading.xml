@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:orientation="vertical" >
+
+    <TextView
+            android:id="@+id/lblMealHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trim_Color"
+            android:textColor="@color/text_Color"
+            android:textStyle="bold"
+            android:textSize="@dimen/menuHeading_TextSize" android:textAllCaps="true" android:gravity="center"
+            android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textView"
+            />
+    <TextView
+            android:background="@color/trim_Color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@+id/lblMealHeader"/>
+
+</RelativeLayout>

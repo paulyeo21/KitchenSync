@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--layout.main-->
+    <dimen name="menuBar_Height">60dp</dimen>
+    <dimen name="menuBar_CurrentMeal_TextSize">14dp</dimen>
+    <dimen name="menuBar_Padding">4dp</dimen>
+    <dimen name="menuBar_AccentHeight">7dp</dimen>
+    <dimen name="menuBar_CurrentDate_TextSize">14dp</dimen>
+
+    <!--layout.review_main-->
+    <dimen name="reviewTitle_TextSize">35dp</dimen>
+    <dimen name="reviewTitle_TextSizeMedium">25dp</dimen>
+    <dimen name="reviewTitle_TextSizeSmall">15dp</dimen>
+    <dimen name="review_Padding">7dp</dimen>
+
+    <!--layout.review_write-->
+    <integer name="review_Boarder">3</integer>
+    <integer name="review_MaxBoarder">10</integer>
+
+    <!--layout.review_write-->
+    <dimen name="menu_Boarder">20dp</dimen>
+
+    <!--layout.menu_item-->
+    <dimen name="menuItem_EdgePadding">5dp</dimen>
+    <dimen name="menuItem_TextSize">20dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+
+    <!--layout.menu_heading-->
+    <dimen name="menuHeading_TextSize">40dp</dimen>
+
+    <!--layout.help_main-->
+    <dimen name="helpBar_Height">50dp</dimen>
+    <dimen name="helpBar_TextSize">35dp</dimen>
+    <dimen name="helpPage_Padding">4dp</dimen>
+    <dimen name="help_Heading">50dp</dimen>
+    <dimen name="helpHeading_TextSize">20dp</dimen>
+
+</resources>

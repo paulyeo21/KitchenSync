@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minHeight"
+                android:orientation="vertical"
+                android:background="@color/background_Color" android:paddingLeft="@dimen/menuItem_EdgePadding">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_restrictionImgView"
+            android:src="@drawable/transparent"
+            android:padding="@dimen/menuItem_EdgePadding"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/list_item_glutenImgview"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_item_glutenImgview"
+            android:src="@drawable/transparent"
+            android:padding="@dimen/menuItem_EdgePadding"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/lblListItem" android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/menuItem_EdgePadding"
+            android:textSize="@dimen/menuItem_TextSize" android:layout_toLeftOf="@+id/list_item_restrictionImgView"/>
+
+</RelativeLayout>
